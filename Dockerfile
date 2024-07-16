@@ -1,5 +1,6 @@
 #FROM openjdk:8-jdk-slim
-FROM docker.io/store/oracle/serverjre:8
+#FROM docker.io/store/oracle/serverjre:8
+FROM docker.io/xzxiaoshan/oracle-jdk:17-ol8
 
 #镜像的制作人
 MAINTAINER 365384722@qq.com
